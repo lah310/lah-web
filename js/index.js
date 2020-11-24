@@ -1,4 +1,5 @@
 const cards = document.getElementById("Servidores");
+const otro = document.getElementById("otro")
 const bot = document.getElementById("bots");
 const sv = [
   {
@@ -11,7 +12,7 @@ const sv = [
     name: "StreamersCommunity ",
     image: "images/1-1.png",
     des: "mi comunidad de streamers ",
-    invitacion: "https://discord.gg/QZy4r2JjJC",
+    invitacion: "https://discord.gg/TxbEZYXc6w",
   },
   {
     name: "GubazaBot",
@@ -25,6 +26,12 @@ const sv = [
     image: "images/Spring.gif",
     des: "El servidor de mi amigo ",
     invitacion: "https://discord.gg/e3k73Gafzh",
+  },
+  {
+    name: "Lah",
+    image: "images/lah.png",
+    des: "Mi Servidor oficial",
+    invitacion: "https://discord.gg/UNNTbRFjwb",
   },
 ];
 const bots = [
@@ -45,6 +52,25 @@ const bots = [
       "https://discord.com/oauth2/authorize?client_id=640982043555004473&scope=bot&permissions=4402287",
   },
 ];
+
+
+
+
+
+const otros = [
+  {
+  name:"YoSoyLah",
+  des: `127`,
+  image:"images/lah.png",
+  subs: "sdadc",
+  link:"https://www.youtube.com/channel/UCA7PK8GgqEsLubyQbQ1OmSA?sub_confirmation=1"
+  }
+]; 
+
+
+
+
+
 sv.forEach(({ name, image, des, invitacion }) => {
   cards.innerHTML += `
     <div class="card">
@@ -52,7 +78,7 @@ sv.forEach(({ name, image, des, invitacion }) => {
         <div class="card__content">
           <p class="cardtitle">${name}</p>
           <p class="carddescription">${des}</p>
-        </div>
+          </div>
         <a class="cardbtn" href="${invitacion}">Unirse</a>
     </div>
     `;
@@ -66,6 +92,19 @@ bots.forEach(({ name, image, des, invitacion }) => {
             <p class="carddescription">${des}</p>
           </div>
           <a class="cardbtn" href="${invitacion}">Invitar</a>
+      </div>
+      `;
+});
+otros.forEach(({ name, image, des, link}) => {
+  otro.innerHTML += `
+      <div class="yt">
+          <img class="yt__img" src="${image}" alt="" />
+          <div class="yt__content">
+            <p class="yttitle">${name}</p>
+            <p class="ytdescription">${des}</p>
+          
+          </div>
+          <a class="ytbtn" href="${link}">SUSCRIBIRSE</a>
       </div>
       `;
 });
@@ -93,4 +132,5 @@ onkeydown = (e) => {
       return false;
     }
   }
+  
 };
