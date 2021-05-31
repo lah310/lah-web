@@ -73,14 +73,7 @@ main {
   flex-direction: column;
   transition: 1s;
 }
-.card a:hover {
-  
-  transform: scale(1.5);
-}
-.card:hover{
-  transform: scale(1.1);
- 
-}
+
 .card__img {
   border-radius: 20px;
   width: 100%;
