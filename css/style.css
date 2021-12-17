@@ -10,7 +10,7 @@
 }
 
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/lah310/lah-web/main/images/navidad.gif")  center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("/images/navidad.gif")  center center no-repeat;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; 
