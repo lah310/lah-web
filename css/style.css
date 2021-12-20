@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Aclonica|Poppins:300,400,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue:400,700&display=swap");
+
 
 * {
   margin: 0;
@@ -10,7 +12,7 @@
 }
 
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("/images/navidad.gif")  center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/lah310/lah-web/main/images/navidad.gif")  center center no-repeat;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; 
@@ -425,7 +427,7 @@ nav ul a {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 20px;
-    font-family: "Aclonica", sans-serif;
+    font-family: "Bebas Neue";
     z-index: 2;
     width: 80%;
     padding: 20px;

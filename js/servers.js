@@ -39,12 +39,12 @@ const sv = [
 sv.forEach(({ name, image, des, invitacion }) => {
   cards.innerHTML += `
     <div class="card">
-        <img class="card__img" src="${image}" alt="" />
+    <a href="${invitacion}" target="_blank"><img class="card__img" src="${image}"></a>
         <div class="card__content">
           <p class="cardtitle">${name}</p>
           <p class="carddescription">${des}</p>
           </div>
-        <a class="cardbtn" href="${invitacion}">Unirse</a>
+        <a class="cardbtn" href="${invitacion}"target="_blank">Unirse</a>
     </div>
     `;
 });

@@ -1,0 +1,21 @@
+*{
+margin: 0px;
+padding: 0px;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+body {
+    background: #738530b8;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-size: cover;
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+  }
+  p{
+color: azure;
+
+  }

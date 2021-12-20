@@ -34,7 +34,7 @@ otros.forEach(({ name, image, des, link}) => {
             <p class="ytdescription">${des}</p>
           
           </div>
-          <a class="ytbtn" href="${link}">SUSCRIBIRSE</a>
+          <a class="ytbtn" href="${link}" target="_blank">SUSCRIBIRSE</a>
       </div>
       `;
 });

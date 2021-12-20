@@ -56,12 +56,12 @@ const bots = [
 bots.forEach(({ name, image, des, invitacion }) => {
   bot.innerHTML += `
       <div class="card">
-          <img class="card__img" src="${image}" alt="" />
+      <img class="card__img" src="${image}">
           <div class="card__content">
             <p class="cardtitle">${name}</p>
             <p class="carddescription">${des}</p>
           </div>
-          <a class="cardbtn" href="${invitacion}">Invitar</a>
+          <a class="cardbtn" href="${invitacion}" target="_blank">Invitar</a>
       </div>
       `;
 });
